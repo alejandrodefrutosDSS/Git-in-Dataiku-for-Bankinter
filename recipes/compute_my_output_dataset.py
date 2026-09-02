@@ -1,4 +1,3 @@
-```python
 import dataiku
 import pandas as pd
 
@@ -15,4 +14,3 @@ output_dataset = dataiku.Dataset("my_output_dataset")
 
 # Write the DataFrame to the dataset
 output_dataset.write_with_schema(df)
-```
