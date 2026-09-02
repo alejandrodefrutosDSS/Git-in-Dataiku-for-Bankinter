@@ -7,6 +7,7 @@ df = pd.DataFrame({
     "name": ["Alice", "Bob", "Charlie", "David", "Eva"],
     "age": [25, 30, 35, 40, 45],
     "branch": ["dev_2_branch"] * 5
+    "branch2": ["dev_1_branch"] * 5
 })
 
 # Get the output Dataiku dataset
