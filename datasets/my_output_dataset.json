@@ -63,8 +63,12 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {"name":"id","type":"bigint"},
+      {"name":"name","type":"string"},
+      {"name":"age","type":"bigint"}
+    ],
+    "userModified": false
   },
   "typeSystemVersion": "V2",
   "dkuProperties": [],
