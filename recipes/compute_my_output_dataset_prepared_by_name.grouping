@@ -5,19 +5,7 @@
   },
   "keys": [
     {
-      "last": false,
-      "max": false,
-      "column": "name",
-      "count": false,
-      "sum": false,
-      "concat": false,
-      "type": "string",
-      "countDistinct": false,
-      "min": false,
-      "avg": false,
-      "median": false,
-      "stddev": false,
-      "first": false
+      "column": "name"
     }
   ],
   "values": [
@@ -27,7 +15,6 @@
       "firstLastNotNull": false,
       "column": "id",
       "count": false,
-      "$idx": 0,
       "sum": false,
       "concat": false,
       "type": "bigint",
@@ -46,7 +33,6 @@
       "firstLastNotNull": false,
       "column": "id-1000",
       "count": false,
-      "$idx": 1,
       "sum": false,
       "concat": false,
       "type": "bigint",
@@ -65,7 +51,6 @@
       "firstLastNotNull": false,
       "column": "age",
       "count": false,
-      "$idx": 2,
       "sum": false,
       "concat": false,
       "type": "bigint",
@@ -82,28 +67,8 @@
       "last": false,
       "max": false,
       "firstLastNotNull": false,
-      "column": "branch",
-      "count": false,
-      "$idx": 3,
-      "sum": false,
-      "concat": false,
-      "type": "string",
-      "concatDistinct": false,
-      "sum2": false,
-      "min": false,
-      "countDistinct": false,
-      "avg": false,
-      "median": false,
-      "stddev": false,
-      "first": false
-    },
-    {
-      "last": false,
-      "max": false,
-      "firstLastNotNull": false,
       "column": "branch2",
       "count": false,
-      "$idx": 4,
       "sum": false,
       "concat": false,
       "type": "string",
@@ -163,21 +128,6 @@
   "outputColumnNameOverrides": {},
   "computedColumns": [],
   "postFilter": {
-    "$status": {
-      "schema": {
-        "columns": [
-          {
-            "name": "name",
-            "type": "string"
-          },
-          {
-            "name": "count",
-            "type": "bigint"
-          }
-        ],
-        "userModified": false
-      }
-    },
     "distinct": false,
     "enabled": false
   },
