@@ -5,7 +5,19 @@
   },
   "keys": [
     {
-      "column": "name"
+      "last": false,
+      "max": false,
+      "column": "name",
+      "count": false,
+      "sum": false,
+      "concat": false,
+      "type": "string",
+      "countDistinct": false,
+      "min": false,
+      "avg": false,
+      "median": false,
+      "stddev": false,
+      "first": false
     }
   ],
   "values": [
@@ -15,6 +27,7 @@
       "firstLastNotNull": false,
       "column": "id",
       "count": false,
+      "$idx": 0,
       "sum": false,
       "concat": false,
       "type": "bigint",
@@ -33,6 +46,7 @@
       "firstLastNotNull": false,
       "column": "id-1000",
       "count": false,
+      "$idx": 1,
       "sum": false,
       "concat": false,
       "type": "bigint",
@@ -51,6 +65,7 @@
       "firstLastNotNull": false,
       "column": "age",
       "count": false,
+      "$idx": 2,
       "sum": false,
       "concat": false,
       "type": "bigint",
@@ -69,6 +84,7 @@
       "firstLastNotNull": false,
       "column": "branch2",
       "count": false,
+      "$idx": 3,
       "sum": false,
       "concat": false,
       "type": "string",
@@ -76,6 +92,40 @@
       "sum2": false,
       "min": false,
       "countDistinct": false,
+      "avg": false,
+      "median": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "branch1",
+      "count": false,
+      "$idx": 4,
+      "sum": false,
+      "concat": false,
+      "type": "string",
+      "countDistinct": false,
+      "min": false,
+      "avg": false,
+      "median": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "branch3",
+      "count": false,
+      "$idx": 5,
+      "sum": false,
+      "concat": false,
+      "type": "string",
+      "countDistinct": false,
+      "min": false,
       "avg": false,
       "median": false,
       "stddev": false,
@@ -128,6 +178,21 @@
   "outputColumnNameOverrides": {},
   "computedColumns": [],
   "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "bigint"
+          }
+        ],
+        "userModified": false
+      }
+    },
     "distinct": false,
     "enabled": false
   },
