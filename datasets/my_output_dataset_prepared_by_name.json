@@ -44,7 +44,7 @@
     "mode": "table",
     "partitioningType": "custom",
     "normalizeDoubles": true,
-    "table": "${projectKey}_my_output_dataset_prepared_by_name",
+    "table": "${projectKey}_my_output_by_name",
     "tableCreationMode": "auto",
     "writeInsertBatchSize": 10000,
     "writeDescriptionsAsSQLComment": false,
